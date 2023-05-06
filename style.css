@@ -2,7 +2,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #fff;
+  background-color: #000;
   margin: 0;
   padding: 0;
 }
@@ -12,11 +13,13 @@ body {
   width: 80%;
   margin: auto;
   padding: 20px;
+  padding-left: 3%;  /* Added padding on the left */
+  padding-right: 3%; /* Added padding on the right */
 }
 
 /* Headers */
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
+  color: #fff; /* Updated to white text */
 }
 
 h1 {
@@ -57,4 +60,5 @@ li {
   text-align: center;
   font-size: 0.9em;
   margin-top: 50px;
+  color: #fff; /* Updated to white text */
 }
